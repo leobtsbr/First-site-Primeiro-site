@@ -1,0 +1,78 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.dropmenu{
+overflow-y: auto;
+}
+body{
+  background-color: #e03f42;
+background-image: linear-gradient(90deg, #5c131485 0%, #8b3b09a6 50%, #5f360888 100%);
+
+overflow-y: scroll;
+ 
+}
+
+h5{
+  color: white;
+}
+p{
+  color: white;
+  font-family: Roboto-Condensed, sans-serif;
+
+}
+.cards{
+  display: flex;
+  justify-content: center;
+   column-gap: 10px ;
+   
+   flex-wrap: wrap;
+}
+
+.imgpizza2{
+  display: block;
+}
+.cardscontents{
+display: flex;
+justify-content: center;
+column-gap: 10px ;
+flex-wrap: wrap;
+}
+footer{
+  width: 100%;
+  height: 100%;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   padding-bottom: 5px;
+   column-gap: 10px;
+   flex-wrap: wrap;
+}
+.inc{
+  display: flex;
+  padding-left: 4%;
+  padding-top: 4px;
+  background-color: rgb(32, 32, 32);
+  height: 40px;
+
+}
+.titlecardp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+.cardp{
+  background-color: rgba(0, 0, 0, 0.747);   
+  border-radius: 15px;
+  width: 100px;
+}
+.loremcardp{
+color: white;
+padding-bottom: 60px;
+}
+
+
